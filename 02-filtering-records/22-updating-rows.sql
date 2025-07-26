@@ -1,0 +1,1 @@
+UPDATE cities SET populations = 39505000 WHERE name = 'Tokyo';
