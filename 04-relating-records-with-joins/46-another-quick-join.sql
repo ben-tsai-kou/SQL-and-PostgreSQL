@@ -1,1 +1,1 @@
-SELECT contents, url FROM comments JOIN photos On comments.photo_id = photos.id;
+SELECT contents, url FROM comments JOIN photos ON comments.photo_id = photos.id;
