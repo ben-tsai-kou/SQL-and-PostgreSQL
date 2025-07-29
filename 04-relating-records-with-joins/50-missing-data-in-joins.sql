@@ -1,0 +1,1 @@
+SELECT url, username FROM photos LEFT JOIN users ON photos.user_id = users.id;
