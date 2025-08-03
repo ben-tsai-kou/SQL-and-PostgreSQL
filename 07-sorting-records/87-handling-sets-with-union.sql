@@ -1,1 +1,22 @@
-(SELECT * FROM users WHERE age < 30) UNION (SELECT * FROM users WHERE age > 60);
+(
+  SELECT
+    *
+  FROM
+    products
+  ORDER BY
+    price DESC
+  LIMIT
+    4
+)
+UNION ALL
+  (
+    SELECT
+      *
+    FROM
+      products
+    ORDER BY
+      price / weight DESC
+    LIMIT
+      4
+  )
+)
