@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT MAX(price) FROM products) AS p;
