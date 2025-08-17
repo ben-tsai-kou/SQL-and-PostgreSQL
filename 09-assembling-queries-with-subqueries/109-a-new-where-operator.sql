@@ -14,5 +14,3 @@ WHERE price > (
     FROM products
     WHERE department = 'Industrial'
 );
-
-
