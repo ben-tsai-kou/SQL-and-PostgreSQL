@@ -4,5 +4,3 @@ WHERE price > (
     SELECT AVG(price)
     FROM products
 );
-
-

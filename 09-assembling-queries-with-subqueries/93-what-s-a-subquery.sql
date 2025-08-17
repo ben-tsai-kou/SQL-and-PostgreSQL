@@ -12,4 +12,3 @@ WHERE
     WHERE
       department = 'Toys'
   );
-  

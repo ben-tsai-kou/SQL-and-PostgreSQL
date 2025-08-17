@@ -11,6 +11,3 @@ SELECT orders.id
 FROM orders 
 JOIN products ON orders.product_id = products.id
 WHERE products.price / products.weight > 50;
-
-
-
