@@ -6,4 +6,4 @@ SELECT COUNT(DISTINCT department) FROM products;
 
 -- 
 
-SELECT DISTINCT department, name FROM products;
+SELECT DISTINCT department, name FROM products
