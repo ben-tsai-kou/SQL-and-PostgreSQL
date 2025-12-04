@@ -7,3 +7,4 @@ SELECT
         ELSE 'low'
     END
 FROM products;
+-- high, medium, low
